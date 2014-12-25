@@ -19,8 +19,9 @@ namespace Saakuru
             int k = int.Parse(Console.ReadLine());
 
             UnfairRandom unfair = new UnfairRandom(k);
-            Console.WriteLine("Unfair Number: " + unfair.UnfairRandom());
+            Console.WriteLine("Unfair Number: " + unfair.Unfairandom());
             Console.WriteLine("Fair Number:   " + unfair.FairRandom());
+            Console.WriteLine("Factorial =   " + unfair.Factorial());
         }
     }
 }
